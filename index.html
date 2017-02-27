@@ -3,6 +3,8 @@
 <head>
 	<title>Adam Dao</title>
 	<meta name="viewport" content="width=device-width">
+
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<!-- Latest compiled and minified JavaScript -->
@@ -22,7 +24,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a  id ="navbarText" class="navbar-brand" href="#">Adam Dao</a>
+      <a  id ="navbarText" class="navbar-brand" href="#"><i class="fa fa-code fa-lg"></i> Adam Dao</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -32,7 +34,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a  id ="navbarText" href="#">Projects</a></li>
         <li><a  id ="navbarText" href="#">About</a></li>
-        <li><a  id ="navbarText" href="#">Blog</a></li>
+        <li><a  id ="navbarText" href="#">GitHub</a></li>
         
         </li>
       </ul>
@@ -57,53 +59,97 @@
 			<div id="sharp" class = "ui segments">
 				<p id="readLatestPost">Read my latest post<p>
 			</div>
-			<button id="sharp" class = "btn btn-primary">More About Me</button>
-			<button id="sharp" class = "btn btn-info">Send Me an Email</button>
-			<button id="sharp" class = "btn btn-warning">More about me</button>
+			<button id="sharp" class = "btn btn-primary"><i class="fa fa-question-circle"></i> More About Me</button>
+			<button id="sharp" class = "btn btn-info"><i class="fa fa-envelope"></i> Send Me an Email</button>
+			<button id="sharp" class = "btn btn-warning"><i class="fa fa-github"></i> My GitHub</button>
 		</div>
 	</div>
+</div>
 
-	<div class ="row">
-		<div class="col-md-12">
-			<h1>Technologies/Skills</h1>
+	<!-- tech and skills -->
+<div class="section">
+	<div class="container">
+		<div class ="row">
+			<div class="col-md-12">
+				<h1>Technologies/Skills</h1>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class = "col-md-12">
+						<h2>Front End</h2>
+
+				<ul class="list-inline">
+					<li id="techitem">HTML</li>	
+					<li id="techitem">CSS</li>
+					<li id="techitem">Javascript</li>
+					<li id="techitem">jQuery</li>
+					<li id="techitem">BootStrap</li>
+					<li id="techitem">SemanticUI</li>
+				</ul>
+
+			</div>
+		</div>
+
+		<div class ="row">
+			<div class ="col-md-12">
+				<h2>Back End</h2>
+				<ul class="list-inline">
+					<li id="techitem">NodeJS</li>	
+					<li id="techitem">MongoDB</li>
+					<li id="techitem">Express</li>
+					<li id="techitem">OracleSQL</li>
+					<li id="techitem">Java</li>
+					<li id="techitem">Apache</li>
+				</ul>
+			</div>
 		</div>
 	</div>
+</div>
 
+<div class="container">
 	<div class="row">
 		<div class = "col-md-12">
-					<h2>Front End</h2>
-
-			<ul class="list-inline">
-				<li id="techitem">HTML</li>	
-				<li id="techitem">CSS</li>
-				<li id="techitem">Javascript</li>
-				<li id="techitem">jQuery</li>
-				<li id="techitem">BootStrap</li>
-				<li id="techitem">SemanticUI</li>
-			</ul>
-
+			<h1>Recent Work</h1>
 		</div>
 	</div>
-
-	<div class ="row">
-		<div class ="col-md-12">
-			<h3>Back End</h3>
-			<ul class="list-inline">
-				<li id="techitem">NodeJS</li>	
-				<li id="techitem">MongoDB</li>
-				<li id="techitem">Express</li>
-				<li id="techitem">OracleSQL</li>
-				<li id="techitem">Java</li>
-				<li id="techitem">Apache</li>
-			</ul>
+	<div id="recentImages" class="row">
+		<div class="col-sm-6 col-md-4">
+			<a href="#" class="thumbnail">
+				<img src="images/yelpcamp.png">
+			</a>
 		</div>
 
 
+		<div class="col-sm-6 col-md-4">
+			<a href="#" class="thumbnail">
+				<img src="images/colorgame.png">
+			</a>
+		</div>	
+
+		<div class="col-sm-6 col-md-4">
+			<a href="#" class="thumbnail">
+				<img src="images/todo.png">
+			</a>
+		</div>	
+	</div>
+
+	<div class="row text-center">
+		<div class = "col-md-12">
+			<button id="viewAll" class="btn btn-danger">View All</button>
+		</div>
 	</div>
 </div>
 
 
+<nav id = "footer" class="navbar navbar-inverse">
+	<div class="text-center">
+		<h4 id="footText">© Copyright
+		<script type="text/javascript">document.write(new Date().getFullYear());</script> Adam Dao. All rights reserved.
+		</h4> 
+	</div>
 
+</nav>
 
 
 

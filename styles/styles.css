@@ -4,8 +4,32 @@
     margin-bottom: 10px;
 }
 
+
+.section{
+    background-color: white;
+}
+
+#recentImages{
+    display:flex; 
+    flex-wrap:wrap;
+}
+
+#footer{
+    margin: 10px 0 0 0;
+    border-radius: 0px;
+}
+#footText{
+    color:#848484;
+    font-weight: normal;
+}
+
 #navbarText{
     color: #f6f6f6;
+}
+
+#viewAll{
+    border-radius:0px;
+
 }
 
 body{
